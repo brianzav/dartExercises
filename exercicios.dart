@@ -11,71 +11,81 @@ num pesoIdeal(num altura) {
 
 
 
+/*
+  1) Faça um programa que receba 2 números e imprima a soma. 
 
-// 1) Faça um programa que receba 2 números e imprima a soma. 
+void main() {
+  somatoria(5,4);
+}
 
-// void main() {
-//   somatoria(5,4);
-// }
+void somatoria(int n1, int n2){
+  int soma;
+  soma = n1 + n2;
+  print(soma);
+}
+*/
 
-// void somatoria(int n1, int n2){
-//   int soma;
-//   soma = n1 + n2;
-//   print(soma);
-// }
+/*
+  2) Faça um programa que peça as 4 notas bimestrais e mostre a média.
 
-// 2) Faça um programa que peça as 4 notas bimestrais e mostre a média.
+void main() {
+  mediaFinal(5,3,10,9);
+}
 
-// void main() {
-//   mediaFinal(5,3,10,9);
-// }
+void mediaFinal(int nota1, int nota2, int nota3, int nota4){
+  num mediaF;
+  mediaF = (nota1+nota2+nota3+nota4)/4;
+  print(mediaF);
+}
+*/
 
-// void mediaFinal(int nota1, int nota2, int nota3, int nota4){
-//   num mediaF;
-//   mediaF = (nota1+nota2+nota3+nota4)/4;
-//   print(mediaF);
-// }
+/*
+  3) Faça um programa que converta metros para centímetros.
 
-// 3) Faça um programa que converta metros para centímetros.
+void main() {
+  conversor(3.7);
+}
 
-// void main() {
-//   conversor(3.7);
-// }
-
-// void conversor(num metros){
-//   num centimetros;
-//   centimetros = metros * 100;
-//   print('$metros m, equivale a : $centimetros cms');
-// }
-
-// 4) Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
-
-// void main() {
-//   mostrarArea(4);
-// }
-
-// void mostrarArea(num radio){
-// num result;
-//   result = 3.14 * (radio*radio);
-//   print('A area do seu raio é, $result');
-// }
-
-
-// 5) Faça um programa que calcule a área de um quadrado e imediatamente mostre o dobro desta área para o usuário.
-
-// void main() {
-//   num area = calculaArea(4.5);
+void conversor(num metros){
+  num centimetros;
+  centimetros = metros * 100;
+  print('$metros m, equivale a : $centimetros cms');
+}
+*/
   
-//   print(area*2);
-// }
+/*
+  4) Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
 
-// num calculaArea(num ladoQuadrado){
-//   num area;
-//   area = ladoQuadrado * ladoQuadrado;
-//   return area;
-// }
+ void main() {
+   mostrarArea(4);
+ }
 
-/* 6) Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês, calcule e mostre o total do seu salário no mês.
+ void mostrarArea(num radio){
+ num result;
+   result = 3.14 * (radio*radio);
+   print('A area do seu raio é, $result');
+ }
+/*
+
+/* 
+5) Faça um programa que calcule a área de um quadrado e imediatamente mostre o dobro desta área para o usuário.
+
+ void main() {
+   num area = calculaArea(4.5);
+  
+   print(area*2);
+ }
+
+ num calculaArea(num ladoQuadrado){
+   num area;
+   area = ladoQuadrado * ladoQuadrado;
+   return area;
+ }
+*/
+
+/* 
+6) Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês, calcule e mostre o total do seu salário no mês.
+
  void main() {
    salarioMensual(150, 670);
  }
