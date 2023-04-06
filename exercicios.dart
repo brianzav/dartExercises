@@ -1,14 +1,12 @@
 void main() {
-  maisCaracteres('Billy', 'Billy');
+  resultado('Real Madrid', 4, 'Barcelona', 1);
 }
 
-void maisCaracteres(String nome1, String nome2) {
-  if (nome1.length > nome2.length) {
-    print('O nome $nome1 é maior que $nome2.');
-  } else if (nome1.length < nome2.length) {
-    print('O nome $nome2 é maior que $nome1.');
-  } else {
-    print('Os nomes são iguais.');
+void resultado(String timeA, int golA, String timeB, int golB) {
+  if (golA > golB) {
+    print('$timeA venceu!');
+  } else if (golA == golB) {
+    print('$timeB venceu!');
   }
 }
 
@@ -268,19 +266,60 @@ void numPositivo(num numero) {
 */
 
 /*
-  
+  Escreva um programa que leia dois nomes e mostre o que contém maior quantidade de caracteres.
 
+    void main() {
+      maisCaracteres('Billy', 'Billy');
+    }
+
+    void maisCaracteres(String nome1, String nome2) {
+      if (nome1.length > nome2.length) {
+        print('O nome $nome1 é maior que $nome2.');
+      } else if (nome1.length < nome2.length) {
+        print('O nome $nome2 é maior que $nome1.');
+      } else {
+        print('Os nomes são iguais.');
+      }
+    }
 
 */
 
 /*
   Escreva um programa que leia um número inteiro que corresponde a um ângulo e informe em qual quadrante este ângulo se encontra.
 
+  void main() {
+    ubicacaoQuadrante(277);
+  }
 
+  void ubicacaoQuadrante(num angulo) {
+    if (angulo >= 0 && angulo <= 90) {
+      print('O angulo $angulo, se encontra no Primeiro quadrante.');
+    } else if (angulo >= 90 && angulo <= 180) {
+      print('O angulo $angulo, se encontra no Segundo quadrante.');
+    } else if (angulo >= 180 && angulo <= 270) {
+      print('O angulo $angulo, se encontra no Terceiro quadrante.');
+    } else if (angulo >= 270 && angulo <= 360)
+      print('O angulo $angulo, se encontra no Quarto quadrante.');
+  }
 */
 
 /*
-  Escreva um programa que leia um número inteiro que corresponde a um ângulo e informe em qual quadrante este ângulo se encontra e quantas voltas ele dá. (360º = uma volta)
+  Escreva um programa que leia dois números inteiros e informe se o maior é múltiplo do menor
 
+  void main() {
+    maiorMultiploMenor(20, 10);
+  }
+
+  void maiorMultiploMenor(int num1, int num2) {
+    if (num1 > num2) {
+      print(num1 % num2 == 0? '${num1} é múltiplo de ${num2}' : '${num1} não é múltiplo de ${num2}');
+    } else {
+      print(num2 % num1 == 0? '${num2} é múltiplo de ${num1}' : '${num2} não é múltiplo de ${num1}');
+    }
+  }
+*/
+
+/*
+   Escreva um programa que leia dois nomes de times de futebol, a quantidade de gols do primeiro time, a quantidade de gols do segundo time e mostre o nome do time vencedor da partida.
 
 */
