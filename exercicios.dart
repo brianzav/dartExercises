@@ -322,4 +322,16 @@ void numPositivo(num numero) {
 /*
    Escreva um programa que leia dois nomes de times de futebol, a quantidade de gols do primeiro time, a quantidade de gols do segundo time e mostre o nome do time vencedor da partida.
 
+  void main() {
+    resultado('Real Madrid', 4, 'Barcelona', 1);
+  }
+
+  void resultado(String timeA, int golA, String timeB, int golB) {
+    if (golA > golB) {
+      print('$timeA venceu!');
+    } else if (golA == golB) {
+      print('$timeB venceu!');
+    }
+  }
+
 */
